@@ -25,7 +25,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 
     trigger OnOpenPage();
     begin
-        ShowTypewriterMessage('App published: Hello world');
+        ShowTypewriterMessage('Bienvenue dans la liste des clients !');
     end;
 
     local procedure ShowTypewriterMessage(FullText: Text)
