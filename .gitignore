@@ -1,0 +1,6 @@
+.alpackages/
+.snapshots/
+*.app
+*.flf
+*.bclicense
+.vscode/launch.json

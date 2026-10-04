@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+}
+
+#controlAddIn {
+    height: 100%;
+}
+
+.csc-wrapper {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+}
+
+.csc-canvas-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.csc-message {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #605e5c;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.csc-message[hidden] {
+    display: none;
+}
